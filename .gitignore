@@ -585,7 +585,7 @@ FodyWeavers.xsd
 # VS Code files for those working on multiple tools
 
 # Local History for Visual Studio Code
-
+.vscode
 # Windows Installer files from build outputs
 
 # JetBrains Rider
