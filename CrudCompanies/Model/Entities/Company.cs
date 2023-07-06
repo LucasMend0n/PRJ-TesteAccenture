@@ -6,5 +6,6 @@ namespace CrudCompanies.Model
         public string TaxId { get; set; }
         public string BusinessName { get; set; }
         public string Cep { get; set; }
+        public List<Supplier> Suppliers { get; set; }
     }
 }

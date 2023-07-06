@@ -7,10 +7,10 @@ namespace CrudCompanies.Context
     {
         DbSet<Company> Companies { get; set; }
         DbSet<Supplier> Suppliers { get; set; }
-        public CompaniesContext(DbContextOptions<CompaniesContext> options) : base(options)
-        {
+        DbSet<SupplierCompany> SupplierCompanies { get; set; }
 
-        }
+        public CompaniesContext(DbContextOptions<CompaniesContext> options) : base(options)
+        { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
